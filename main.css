@@ -1,0 +1,16 @@
+nav {
+  background-color: orange;
+}
+nav ul {
+  list-style-type: none;
+}
+nav ul li {
+  font-size: 20px;
+}
+nav ul li a:hover {
+  font-size: 40px;
+}
+
+p {
+  color: rgb(207, 11, 11);
+}/*# sourceMappingURL=main.css.map */

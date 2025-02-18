@@ -1,0 +1,36 @@
+$primary-color: orange;
+$secondary-color: rgb(207, 11, 11);
+
+$fontSize-lg: 40px;
+$fontSize-md: 30px;
+$fontSize-sm: 20px;
+
+nav{
+    background-color: $primary-color;
+    ul
+    {
+        list-style-type: none;
+        li{
+
+            font-size: $fontSize-sm;
+            a{
+                &:hover{
+                    font-size: $fontSize-lg;
+                }
+
+            }
+        }
+    }
+
+
+}
+
+p{
+    color: $secondary-color
+}
+
+
+
+
+
+
